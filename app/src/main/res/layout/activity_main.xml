@@ -1,18 +1,83 @@
 <?xml version="1.0" encoding="utf-8"?>
-<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
-    xmlns:app="http://schemas.android.com/apk/res-auto"
+
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context="com.example.ahmed.english_learning.MainActivity">
+    android:background="@drawable/background"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
 
-    <TextView
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="Hello World!"
-        app:layout_constraintBottom_toBottomOf="parent"
-        app:layout_constraintLeft_toLeftOf="parent"
-        app:layout_constraintRight_toRightOf="parent"
-        app:layout_constraintTop_toTopOf="parent" />
+    <Button
+        android:id="@+id/btn_numbers"
+        style="@style/style"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:onClick="go_2Activity"
+        android:text="@string/numbers" />
 
-</android.support.constraint.ConstraintLayout>
+    <Button
+        android:id="@+id/btn_fruits"
+        style="@style/style"
+        android:layout_above="@+id/btn_letters"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:onClick="go_2Activity"
+        android:text="@string/fruits" />
+
+    <Button
+        android:id="@+id/btn_shapes"
+        style="@style/style"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_margin="20dp"
+        android:onClick="go_2Activity"
+        android:text="@string/shapes" />
+
+    <Button
+        android:id="@+id/btn_colors"
+        style="@style/style"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:onClick="go_2Activity"
+        android:text="@string/colors" />
+
+    <Button
+        android:id="@+id/btn_days"
+        style="@style/style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:layout_margin="20dp"
+        android:onClick="go_2Activity"
+        android:text="@string/days" />
+
+    <Button
+        android:id="@+id/btn_letters"
+        style="@style/style"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="20dp"
+        android:onClick="go_2Activity"
+        android:text="@string/letters" />
+
+    <Button
+        android:id="@+id/btn_months"
+        style="@style/style"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentLeft="true"
+        android:layout_margin="20dp"
+        android:onClick="go_2Activity"
+        android:text="@string/months" />
+
+    <Button
+        android:id="@+id/btn_animals"
+        style="@style/style"
+        android:layout_below="@+id/btn_letters"
+        android:layout_centerHorizontal="true"
+        android:layout_margin="10dp"
+        android:onClick="go_2Activity"
+        android:text="@string/animals" />
+
+</RelativeLayout>

@@ -1,3 +1,164 @@
 <resources>
-    <string name="app_name">English_Learning</string>
+    <string name="app_name">English Learning</string>
+    <string name="shapes">Shapes</string>
+    <string name="numbers">Numbers</string>
+    <string name="fruits">Fruits</string>
+    <string name="letters">Letters</string>
+    <string name="colors">Colors</string>
+    <string name="animals">Animals</string>
+    <string name="days">Days</string>
+    <string name="months">Months</string>
+
+    <string-array name="shapes">
+        <item>circle</item>
+        <item>diamond</item>
+        <item>heart</item>
+        <item>hexagon</item>
+        <item>oval</item>
+        <item>pentagon</item>
+        <item>rectangle</item>
+        <item>square</item>
+        <item>star</item>
+        <item>triangle</item>
+        <item>trapezium</item>
+    </string-array>
+
+    <string-array name="numbers">
+        <item>zero</item>
+        <item>one</item>
+        <item>two</item>
+        <item>three</item>
+        <item>four</item>
+        <item>five</item>
+        <item>six</item>
+        <item>seven</item>
+        <item>eight</item>
+        <item>nine</item>
+        <item>ten</item>
+        <item>eleven</item>
+        <item>twelve</item>
+        <item>thirteen</item>
+        <item>fourteen</item>
+        <item>fifteen</item>
+        <item>sixteen</item>
+        <item>seventeen</item>
+        <item>eighteen</item>
+        <item>nineteen</item>
+        <item>twenty</item>
+    </string-array>
+
+    <string-array name="letters">
+        <item>a</item>
+        <item>b</item>
+        <item>c</item>
+        <item>d</item>
+        <item>e</item>
+        <item>f</item>
+        <item>g</item>
+        <item>h</item>
+        <item>i</item>
+        <item>j</item>
+        <item>k</item>
+        <item>l</item>
+        <item>m</item>
+        <item>n</item>
+        <item>o</item>
+        <item>p</item>
+        <item>q</item>
+        <item>r</item>
+        <item>s</item>
+        <item>t</item>
+        <item>u</item>
+        <item>v</item>
+        <item>w</item>
+        <item>x</item>
+        <item>y</item>
+        <item>z</item>
+    </string-array>
+
+    <string-array name="fruits">
+        <item>apple</item>
+        <item>banana</item>
+        <item>blueberry</item>
+        <item>figs</item>
+        <item>grape</item>
+        <item>guava</item>
+        <item>lemons</item>
+        <item>mango</item>
+        <item>onions</item>
+        <item>orange</item>
+        <item>strawberries</item>
+        <item>watermelon</item>
+    </string-array>
+
+    <string-array name="colors">
+        <item>red</item>
+        <item>yellow</item>
+        <item>pink</item>
+        <item>brown</item>
+        <item>green</item>
+        <item>blue</item>
+        <item>crimson</item>
+        <item>beige</item>
+        <item>black</item>
+    </string-array>
+
+    <string-array name="animals">
+        <item>butterfly</item>
+        <item>camel</item>
+        <item>cow</item>
+        <item>crocodile</item>
+        <item>deer</item>
+        <item>dolphin</item>
+        <item>donkey</item>
+        <item>eagle</item>
+        <item>elephant</item>
+        <item>fox</item>
+        <item>giraffe</item>
+        <item>kangaroo</item>
+        <item>lion</item>
+        <item>owl</item>
+        <item>panda</item>
+        <item>parrot</item>
+        <item>rabbit</item>
+        <item>snake</item>
+        <item>tiger</item>
+        <item>whale</item>
+        <item>cat</item>
+        <item>dog</item>
+        <item>fly</item>
+        <item>frog</item>
+        <item>goat</item>
+        <item>hen</item>
+        <item>horse</item>
+        <item>rat</item>
+        <item>octopus</item>
+        <item>zebra</item>
+    </string-array>
+
+    <string-array name="days">
+        <item>saturday</item>
+        <item>sunday</item>
+        <item>monday</item>
+        <item>tuesday</item>
+        <item>wednesday</item>
+        <item>thursday</item>
+        <item>friday</item>
+    </string-array>
+
+    <string-array name="months">
+        <item>january</item>
+        <item>february</item>
+        <item>march</item>
+        <item>april</item>
+        <item>may</item>
+        <item>june</item>
+        <item>july</item>
+        <item>august</item>
+        <item>september</item>
+        <item>october</item>
+        <item>november</item>
+        <item>december</item>
+    </string-array>
+
 </resources>
